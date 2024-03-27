@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    border: 1px solid;
+    height: 8vh;
+    width: 100vw;
+    >div:nth-child(1)>img{
+        
+
+    }
+}

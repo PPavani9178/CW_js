@@ -24,24 +24,15 @@ signUpButton.addEventListener("click", async (e) => {
             body: JSON.stringify(userData)
         });
 
-        // if (response.ok) {
-        //     const data = await response.json();
-        //     alert("Account created successfully!");
-        //     // Optionally, you can redirect the user to the login page after successful signup
-        //     window.location.href = "./login.html";
-        // } else 
-        if(!response.ok){
+        if (response.ok) {
+            const data = await response.json();
+            alert("Account created successfully!");
+            // Optionally, you can redirect the user to the login page after successful signup
+            window.location.href = "./login.html";
+        } else {
             const errorData = await response.json();
             throw new Error(errorData.message || 'Failed to sign up'); // Throw error with message from server or generic message
         }
-
-        const data = await response.json();
-      localStorage.setItem(
-        "localAccessToken",
-        JSON.stringify(data.accessToken)
-      );
-      localStorage.setItem("userId", JSON.stringify(data.user.id));
-      window.location.href = `${baseServerURL}/index.html`;
     } catch (error) {
         alert(error.message);
         console.error("Error:", error);

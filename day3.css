@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    width: auto;
+    
+}
+.navbar-nav>.nav-item{
+     padding: 0 8px;
+}
+#logo{
+    color: #ed222a;
+    font-size: x-large;
+}
+
+.nav-item>a{
+    font-weight: 550;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+}
+
+.navItem:hover{
+    color: #ed222a;
+}
+
+.icon{
+    padding: 0 5px;
+    
+}
+    
+#section-2 {
+    height: 200vh;
+    width: auto;
+    /* border: 2px solid red; */
+    /* position: relative; */
+    margin-top: 12vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+
+    >div:nth-child(1){
+        background-image: url(https://boostedusa.com/cdn/shop/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_800x.jpg?v=1646159164);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 110%;
+        opacity: 0.5;
+        transition: background-size 0.5s; 
+    }
+    >div:nth-child(1):hover{
+        background-size:120% ;
+    }
+    >div:nth-child(2){
+        background-image: url(https://boostedusa.com/cdn/shop/files/Boosted-USA-Super-73-Home-Box-feature-600x544_800x.jpg?v=1680839620);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 130%;
+        opacity: 0.5;
+        transition: background-size 0.5s; 
+    }
+    >div:nth-child(2):hover{
+        background-size:140% ;
+    }
+    >div:nth-child(3){
+        background-image: url(https://boostedusa.com/cdn/shop/files/evolve-electric-skateboard-now-in-stock_800x.jpg?v=1646159245);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 110%;
+        opacity: 0.5;
+        transition: background-size 0.5s; 
+    }
+    >div:nth-child(3):hover{
+        background-size:120% ;
+    }
+    >div:nth-child(4){
+        background-image: url(https://boostedusa.com/cdn/shop/files/minimotors-electric-scooters-2_800x.jpg?v=1655828690);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150%;
+        opacity: 0.5;
+        transition: background-size 0.5s; 
+    }
+    >div:nth-child(4):hover{
+        background-size:160% ;
+    }
+}
+
+#section-2 > div {
+    /* border: 1px solid; */
+    height: 100vh;
+    
+}
+#brand{
+    width: auto;
+    background-color: black;
+    height: 10vh;
+}
+
+#look{
+    height: auto;
+    width: auto;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+
+    >div:nth-child(3){
+        padding: 30% 5% 0 20%;
+    }
+
+    >div:nth-child(4){
+        background-image: url(https://boostedusa.com/cdn/shop/files/minimotors-dualtron-speedway-electric-scooters_800x.jpg?v=1655838313);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    div:nth-child(5){
+        display: flex;
+        justify-content: right;
+        align-items: center ;
+        >div{
+            background-image: url(https://boostedusa.com/cdn/shop/files/GTR_Collection_Product_Bamboo_2in1_1_800x.jpg?v=1646160360);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-position: center;
+            width: 40vw;
+            height: 80vh;
+            border: 1px solid green;
+            transition: background-size 0.5s; 
+        }
+    }
+
+
+    div:nth-child(5)>div:hover{
+         background-size: 130%;
+    }
+
+    >div:nth-child(6){
+        padding: 20% 20% 0 5%;
+    }
+}
+#look>div{
+    border: 1px solid;
+    height: 90vh;
+}
+
+
+
+
+@media (min-width:2000px) {
+  .navbar, #look
+    {     max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #section-2{
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #brand{
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

@@ -1,4 +1,37 @@
 {
+    "users" : [
+        {
+          "name" : "disha",
+          "email" : "disha@gmail.com",
+          "id" : 1,
+          "password" : "disha@123"
+        },
+        {
+            "name" : "Pavani",
+            "email" : "pavani@gmail.com",
+            "id" : 1,
+            "password" : "pavani@123"
+          },
+          {
+            "name" : "Ranjnikant",
+            "email" : "rajnikant@gmail.com",
+            "id" : 1,
+            "password" : "rajnikant@123"
+          },
+          {
+            "name" : "Nikita",
+            "email" : "nikita@gmail.com",
+            "id" : 1,
+            "password" : "nikita@123"
+          },
+          {
+            "name" : "Aditya",
+            "email" : "aditya@gmail.com",
+            "id" : 1,
+            "password" : "aditya@123"
+          }
+          
+    ],
     "products": [
     {
     "productName": "Super73 R Adventure Blackout SE",

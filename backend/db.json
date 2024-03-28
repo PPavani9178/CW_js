@@ -1,0 +1,12 @@
+{
+    "users":[
+        {
+            "username": "Mohan82",
+            "email":"Mohan82@gmail.com",
+            "password":"Admin@17823",
+            "isAdmin":false
+        }
+
+    ]
+
+}

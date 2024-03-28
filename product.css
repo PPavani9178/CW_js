@@ -80,14 +80,34 @@ img {
 .containerN {
   display: flex;
   flex-direction: row;
-  margin-left: 200px;
-  border: 1px solid black;
-  margin-right: 200px;
-  width: 70%;
+  margin-left: 150px;
+  gap: 5%;
+  margin-right: 150px;
 }
 .siderDivN {
-  border: 1px solid red;
-  width: 50%;
+  width: 60%;
 }
-.proInfoN {
+.pN {
+  font-size: small;
+}
+#btN {
+  width: 30%;
+  background-color: black;
+  color: white;
+  font-size: smaller;
+  padding: 1%;
+}
+#btN:hover {
+  background-color: orangered;
+  color: white;
+}
+.proInfo {
+  margin-left: 20px;
+}
+.AddN {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
 }

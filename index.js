@@ -16,7 +16,7 @@ signUpButton.addEventListener("click", async (e) => {
             password: password
         };
 
-        const response = await fetch('https://cw-js-7.onrender.com/users', {
+        const response = await fetch('https://cw-js-8.onrender.com/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

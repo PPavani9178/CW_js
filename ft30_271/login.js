@@ -1,4 +1,4 @@
-const baseServerURL="https://cw-js-7.onrender.com"
+const baseServerURL="https://cw-js-8.onrender.com"
 
 const loginUserButton = document.getElementById("login");
 const email = document.getElementById('email');
@@ -17,7 +17,7 @@ const password = document.getElementById('password');
         password: password.value,
       };
       const response = await fetch(
-        `https://cw-js-7.onrender.com/login`,
+        `https://cw-js-8.onrender.com/login`,
         {
           method: "POST",
           headers: {

@@ -110,4 +110,46 @@ img {
   background-color: black;
   margin-top: 20px;
   display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+#imgN {
+  height: 50px;
+  width: 70px;
+}
+
+.rightN h1 {
+  color: white;
+  font-size: medium;
+}
+.rightN span {
+  color: red;
+}
+#mainContainerN {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* border: 1px solid red; */
+}
+#mainContainerN div {
+  /* border: 1px solid black; */
+  height: 300px;
+  width: 220px;
+}
+
+#mainContainerN p:nth-of-type(1) {
+  font-size: 12px;
+
+  color: orangered;
+}
+#mainContainerN p:nth-of-type(2) {
+  font-size: 12px;
+}
+#mainContainerN img {
+  width: 200px;
+  height: 200px;
 }

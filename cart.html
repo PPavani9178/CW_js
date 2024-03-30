@@ -113,6 +113,14 @@ color: #FF0000;
 #increaseButton{
     margin-top: 10px;
 }
+#payNowButton{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#payNowButton:hover{
+    background-color: #FF0000;
+}
 
 
 
@@ -128,8 +136,8 @@ color: #FF0000;
 
 
 <h1 class="heading">Shopping Cart</h1>
-
-
+<p id="totalPrice"></p>
+<button id="payNowButton">Pay Now</button>
 <!-- fisrt div -->
 <div id="first-div">
     <img src="./cartImage.jpeg" alt="BoyWithCycle">
@@ -137,6 +145,7 @@ color: #FF0000;
     <button id="shopping-Btn" onclick="redirectToHomePage()">Start Shopping</button>
  
 </div>
+
 
 
 <!-- second div -->

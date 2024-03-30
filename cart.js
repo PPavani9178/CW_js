@@ -78,6 +78,7 @@ let productData = [
             data.push(items);
         }
         localStorage.setItem("products", JSON.stringify(data));
+        
 
 
         // modify
@@ -113,14 +114,55 @@ function getProducts() {
         // If there are no items in the cart, show the first-div
         firstdiv.style.visibility = "visible";
         secondDiv.style.visibility = "hidden"; // Hide the second-div if it's visible
+    // Hide the Pay Now button when cart is empty
+    let payNowButton = document.getElementById("payNowButton");
+    if (payNowButton) {
+        payNowButton.style.display = "none";
     } else {
-        firstdiv.style.visibility = "hidden"; // Hide the first-div if there are items in the cart
-        secondDiv.style.visibility = "visible"; // Show the second-div
+        console.error("Element with id 'payNowButton' not found.");
+    }
+} else {
+    firstdiv.style.visibility = "hidden";
+    secondDiv.style.visibility = "visible";
+
+    let totalPrice = 0;
+    getData.forEach((element) => {
+        totalPrice += parseFloat(element.price.replace("$", "").trim()) * element.quantity;
+    });
+
+    let totalPriceElement = document.getElementById("totalPrice");
+    if (totalPriceElement) {
+        totalPriceElement.textContent = "Total Price: $" + totalPrice.toFixed(2);
+    } else {
+        console.error("Element with id 'totalPrice' not found.");
+    }
+
+    // Show the Pay Now button when there are items in the cart
+    let payNowButton = document.getElementById("payNowButton");
+    if (payNowButton) {
+        payNowButton.style.display = "block";
+    } else {
+        console.error("Element with id 'payNowButton' not found.");
+    }
+
+
         secondDiv.innerHTML = "";
         getData.forEach((element, index) => {
             createCard(element, index);
         });
     }
+}
+// Add functionality to the Pay Now button
+let payNowButton = document.getElementById("payNowButton");
+if (payNowButton) {
+    payNowButton.addEventListener('click', () => {
+        // You can add the logic here for handling payment
+        // For example, redirecting to a payment gateway or processing payment
+        // For now, let's just log a message
+        console.log("Redirecting to payment gateway...");
+    });
+} else {
+    console.error("Element with id 'payNowButton' not found.");
 }
 
 
@@ -142,7 +184,7 @@ function createCard(obj,index){
    myTitle.textContent = obj.productName;
    myTitle.id = "myTitle"
    let MYprice = document.createElement("p");
-   MYprice.textContent = "Price:" + " " + "$" + " " + obj.price;
+   MYprice.textContent = "Price:" + " " + obj.price;
 
    let deleteButton = document.createElement("button");
    deleteButton.innerText = "Delete"
@@ -155,6 +197,49 @@ function createCard(obj,index){
    let descreseButton = document.createElement("button");
    descreseButton.id = "decreaseButton";
    descreseButton.innerText = "-";
+
+   // to increase the quantity 
+   
+   increaseButton.addEventListener('click', () => {
+    // Find the corresponding product in the cart based on its index
+    let product = getData[index];
+    
+    // Increase the quantity of the product
+    product.quantity++;
+
+    // Update the quantity display on the UI
+    quantity.innerText = "Quantity: " + product.quantity;
+
+    // Update the local storage with the modified data
+    localStorage.setItem("products", JSON.stringify(getData));
+    getProducts();
+});
+
+
+
+// to decrese the qauntity 
+descreseButton.addEventListener('click', () => {
+    // Find the corresponding product in the cart based on its index
+    let product = getData[index];
+
+    // Decrease the quantity of the product
+    product.quantity--;
+
+    // If the quantity becomes 0, remove the item from the cart
+    if (product.quantity === 0) {
+        getData.splice(index, 1); // Remove the item from the array
+        localStorage.setItem("products", JSON.stringify(getData)); // Update local storage
+        mycard.remove(); // Remove the card from UI
+        getProducts(); // Update UI
+    } else {
+        // Update the quantity display on the UI
+        quantity.innerText = "Quantity: " + product.quantity;
+        localStorage.setItem("products", JSON.stringify(getData)); // Update local storage
+        getProducts();
+    }
+});
+
+
 
 
 // to remove the item from cart
@@ -185,6 +270,12 @@ function createCard(obj,index){
 
     
 }
+
+
+
+
+
+
 
 
 

@@ -21,7 +21,7 @@ const password = document.getElementById('password');
         password: password.value,
       };
       const response = await fetch(
-        `https://cw-js-8.onrender.com/users`,
+        `https://cw-js-8.onrender.com/Admin`,
         {
           method: "POST",
           headers: {
@@ -38,7 +38,7 @@ const password = document.getElementById('password');
       localStorage.setItem("userId", JSON.stringify(data.user));
       console.log(data);
       alert("Successfully logged in");
-      window.location.href='https://students.masaischool.com/lectures/77671?tab=summary'
+      window.location.href='./admin.html'
     
     } catch (error) {
       alert(error.message);

@@ -38,7 +38,7 @@ const password = document.getElementById('password');
       localStorage.setItem("userId", JSON.stringify(data.user));
       console.log(data);
       alert("Successfully logged in");
-      window.location.href='https://students.masaischool.com/lectures/77671?tab=summary'
+      window.location.href='./index.html'
     
     } catch (error) {
       alert(error.message);

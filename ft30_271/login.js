@@ -21,7 +21,7 @@ const password = document.getElementById('password');
         password: password.value,
       };
       const response = await fetch(
-        `https://cw-js-8.onrender.com/users`,
+        `https://cw-js-8.onrender.com/login`,
         {
           method: "POST",
           headers: {

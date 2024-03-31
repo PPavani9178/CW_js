@@ -27,11 +27,11 @@ signUpButton.addEventListener("click", async (e) => {
         if (response.ok) {
             const data = await response.json();
             alert("Account created successfully!");
-            // Optionally, you can redirect the user to the login page after successful signup
+           
             window.location.href = "./login.html";
         } else {
             const errorData = await response.json();
-            throw new Error(errorData.message || 'Failed to sign up'); // Throw error with message from server or generic message
+            throw new Error(errorData.message || 'Failed to sign up'); 
         }
     } catch (error) {
         alert(error.message);

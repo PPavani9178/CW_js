@@ -20,10 +20,10 @@ body {
     padding: 0 8px;
 }
 
-/* #logo {
+#logo {
     color: #ed222a;
-    font-size: x-large;
-} */
+    font-size: large;
+}
 
 .nav-item>a {
     font-weight: 550;

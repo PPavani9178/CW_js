@@ -26,6 +26,23 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("shopScooter").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        window.location.href = "./cart.html"; // Redirect to ./cart.html
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("shopBoard").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        window.location.href = "./cart.html"; // Redirect to ./cart.html
+    });
+});
+
+
+
+
 fetch(jsonFile)
     .then((response) => {
         return response.json();

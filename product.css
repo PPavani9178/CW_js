@@ -83,6 +83,7 @@ img {
   margin-left: 150px;
   gap: 5%;
   margin-right: 150px;
+  margin-top: 90px;
 }
 .siderDivN {
   width: 60%;
@@ -152,4 +153,165 @@ img {
 #mainContainerN img {
   width: 200px;
   height: 200px;
+}
+.navbar {
+  width: auto;
+}
+
+/* .navbar-nav > .nav-item {
+  padding: 0 8px;
+} */
+
+/* #logo {
+    color: #ed222a;
+    font-size: x-large;
+} */
+
+.nav-item > a {
+  font-weight: 550;
+  font-size: 15px;
+}
+
+#logo {
+  color: #ed222a;
+  font-size: large;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Adjust margin as needed */
+  height: 60px;
+  width: 60px;
+}
+
+.navItem:hover {
+  color: #ed222a;
+}
+
+.icon {
+  padding: 0 5px;
+}
+
+#foot {
+  /* border: 1px solid; */
+  height: 50vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+
+  > div {
+    /* border: 1px solid red; */
+    height: 60vh;
+    width: 30vw;
+  }
+
+  > div:nth-child(2) {
+    > h5 {
+      font-weight: 600;
+    }
+
+    > p {
+      font-size: medium;
+    }
+
+    padding: 3%;
+  }
+
+  > div:nth-child(3) {
+    > h5 {
+      font-weight: 600;
+    }
+
+    > p {
+      font-size: medium;
+    }
+
+    padding: 3%;
+  }
+}
+#imgNf {
+  height: 80px;
+  width: 80px;
+}
+#end {
+  /* border: 1px solid red; */
+  height: 10vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+
+  > div {
+    /* border: 1px solid green; */
+    height: 10vh;
+    width: 50%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #end {
+    flex-direction: column; /* Stack child elements vertically on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 2%; /* Add padding for better spacing */
+  }
+
+  #end > div {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-bottom: 4%; /* Add margin between child divs */
+    text-align: center; /* Center align text on smaller screens */
+  }
+}
+
+#black {
+  border: 1px solid;
+  height: 50vh;
+  width: auto;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+
+  > div {
+    /* border: 1px solid red; */
+    height: 40vh;
+    width: 85vw;
+    display: flex;
+  }
+}
+
+#black > div > div {
+  /* border: 1px solid white; */
+  width: 30vw;
+  font-size: small;
+  padding: 3%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #black {
+    height: auto; /* Adjust height for smaller screens */
+    padding: 2%; /* Add padding for better spacing */
+  }
+
+  #black > div {
+    flex-direction: column; /* Stack child elements vertically on smaller screens */
+    width: 90vw; /* Adjust width for smaller screens */
+    height: auto;
+    align-items: center;
+  }
+
+  #black > div > div {
+    width: 80vw; /* Make child divs full width on smaller screens */
+    margin-bottom: 4%; /* Add margin between child divs */
+    padding: 2%;
+  }
 }

@@ -1,6 +1,8 @@
 # Project Title: SPEEDUP Website
 ### Introduction
   The SPEEDUP Website is a platform designed to provide information and resources for users interested in electric transportation solutions. It aims to promote awareness and adoption of electric vehicles and related technology. The website features product listings, user reviews, and informational articles to help users make informed decisions about electric transportation.
+
+  <img width="943" alt="Screenshot 2024-04-02 155508" src="https://github.com/PPavani9178/CW_js/assets/154861374/9a55c499-87ec-4003-a7ff-6763c6a99003">
   ## Project Type
     Frontend | Backend
   ## Deployed App
@@ -65,8 +67,9 @@ CW_js/
 
 1. **Viewing Products:**
    - Navigate to the website's homepage to view electronic devices and accessories listed.
-     
-<img width="943" alt="Screenshot 2024-04-02 155508" src="https://github.com/PPavani9178/CW_js/assets/154861374/9a55c499-87ec-4003-a7ff-6763c6a99003">
+     <img width="939" alt="Screenshot 2024-04-02 160739" src="https://github.com/PPavani9178/CW_js/assets/154861374/7f84f17e-6521-4f4a-b371-f78d5692edf0">
+
+
 
 2. **Adding Items to Cart:**
    - After finding desired items, users can click on the "Add to Cart" button to add them to their cart.

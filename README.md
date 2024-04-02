@@ -65,19 +65,27 @@ CW_js/
 
 1. **Viewing Products:**
    - Navigate to the website's homepage to view electronic devices and accessories listed.
+     
+<img width="943" alt="Screenshot 2024-04-02 155508" src="https://github.com/PPavani9178/CW_js/assets/154861374/9a55c499-87ec-4003-a7ff-6763c6a99003">
 
 2. **Adding Items to Cart:**
    - After finding desired items, users can click on the "Add to Cart" button to add them to their cart.
+     
+<img width="938" alt="Screenshot 2024-04-02 155657" src="https://github.com/PPavani9178/CW_js/assets/154861374/8bfc4898-6552-4f8c-8cbc-cc5586251861">
 
 3. **Login and Signup:**
    - To access additional features like checkout and order history, users need to create an account or log in if they already have one.
    - Click on the "Login" or "Signup" button in the navigation menu to access the respective pages.
    - Fill out the required information and submit the form to create an account or log in.
+     <img width="945" alt="Screenshot 2024-04-02 155525" src="https://github.com/PPavani9178/CW_js/assets/154861374/c3968159-8850-4be4-9815-fbca0861d6af">
+
 
 4. **Admin Functionality:**
    - Admins can access the admin dashboard by logging in with their admin credentials.
    - Once logged in, they can manage products, view customer information, and process orders from the dashboard.
-  
+     
+  <img width="949" alt="Screenshot 2024-04-02 155620" src="https://github.com/PPavani9178/CW_js/assets/154861374/45caa92b-cc8b-4648-a462-e921611a2990">
+
   ## Credentials
     Admin email : pavaniadmin@gmail.com password : pavaniadmin@123
     Admin email : dishaadmin@gmail.com password : dishaadmin@123

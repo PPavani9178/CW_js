@@ -42,7 +42,8 @@ CW_js/
 - `tablebg1.jpg`: Another image file for a table background.
 
   ## Video Walkthrough of the project
-[Attach a very short video walkthrough of all of the features [1 - 3 minutes]]
+
+[![Features Walkthrough](https://img.youtube.com/vi/WJeXIlagszE/0.jpg)](https://www.youtube.com/watch?v=WJeXIlagszE)
 
 ## Video Walkthrough of the codebase
 [Attach a very short video walkthrough of codebase [1 - 5 minutes]]

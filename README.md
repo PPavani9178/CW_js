@@ -46,7 +46,8 @@ CW_js/
 [![Features Walkthrough](https://img.youtube.com/vi/WJeXIlagszE/0.jpg)](https://www.youtube.com/watch?v=WJeXIlagszE)
 
 ## Video Walkthrough of the codebase
-[Attach a very short video walkthrough of codebase [1 - 5 minutes]]
+(https://www.youtube.com/watch?v=WJeXIlagszE)
+
 ## Features
 
 - **Product Listings**: Users can view electronic devices and accessories.

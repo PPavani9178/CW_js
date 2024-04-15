@@ -6,7 +6,7 @@
   ## Project Type
     Frontend | Backend
   ## Deployed App
-    Frontend: [https://660a7bff54c2bc8321598c53--super-cheesecake-535127.netlify.app)  
+    Frontend: [https://661c34ac0093cdaefbed2803--unrivaled-profiterole-acd4e9.netlify.app/)  
     Backend: [https://cw-js-8.onrender.com)  
 ## Directory Structure
 CW_js/

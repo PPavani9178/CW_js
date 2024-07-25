@@ -45,11 +45,6 @@ CW_js/
 │ ├── tablebg.jpg
 │ ├── tablebg1.jpg
 
-markdown
-Copy code
-
-## Video Walkthrough of the Project
-[![Features Walkthrough](https://img.youtube.com/vi/WJeXIlagszE/0.jpg)](https://www.youtube.com/watch?v=WJeXIlagszE)
 
 ## Video Walkthrough of the Codebase
 [https://www.youtube.com/watch?v=WJeXIlagszE](https://www.youtube.com/watch?v=WJeXIlagszE)

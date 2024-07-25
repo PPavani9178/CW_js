@@ -15,35 +15,56 @@ The SPEEDUP Website is a platform designed to provide information and resources 
 ## Directory Structure
 CW_js/
 ├── backend/
+
 │ ├── accessories.html
+
 │ ├── addproduct.html
+
 │ ├── admin.css
+
 │ ├── admin.html
+
 │ ├── admin.js
+
 │ ├── admin_customers.html
+
 │ ├── admin_products.html
+
 │ ├── adminlogin.html
+
 │ ├── adminlogin.js
+
 │ ├── cart.html
+
 │ ├── cart.js
-│ ├── cartImage.jpeg
+
 │ ├── favicon.ico
+
 │ ├── index.css
+
 │ ├── index.html
+
 │ ├── index.js
+
 │ ├── login.html
+
 │ ├── login.js
+
 │ ├── logo.png
+
 │ ├── product.css
+
 │ ├── product.html
+
 │ ├── product.js
+
 │ ├── products.json
+
 │ ├── signup.html
+
 │ ├── signup.js
-│ ├── site.webmanifest
-│ ├── skateboard.webp
-│ ├── tablebg.jpg
-│ ├── tablebg1.jpg
+
+
 
 
 ## Video Walkthrough of the Codebase
@@ -59,11 +80,6 @@ CW_js/
 - Designed for a user-friendly interface to encourage engagement and exploration.
 - Assumed target audience to be tech-savvy individuals interested in environmentally friendly transportation options.
 
-## Installation & Getting Started
-```sh
-npm install my-project
-cd my-project
-npm start
 ## Usage
 
 ### Viewing Products
@@ -113,3 +129,6 @@ Admins can access the admin dashboard by logging in with their admin credentials
 - Aditya Kumar Ashwini
 - Rajnikant Katwaru Keshkar
 - Nikita Ganesh Mane
+
+
+-
